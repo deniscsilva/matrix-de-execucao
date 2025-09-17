@@ -1,6 +1,6 @@
 name: workflow matriz
 on:
-  push:
+  workflow_dispatch:
 jobs:
   exemplo-fluxo-execucao:
     strategy:
