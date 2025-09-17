@@ -1,6 +1,7 @@
 name: workflow matriz
 on:
   push:
+    branches: ["main"]
 jobs:
   exemplo-fluxo-execucao:
     strategy:
